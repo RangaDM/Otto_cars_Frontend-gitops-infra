@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: react-app
-          image: rangadm/otto-car-sale-frontend:new
+          image: rangadm/otto-car-sale-frontend:2d1c234b9eb8765d93da262146c7fe41f4c318f0
           imagePullPolicy: Always
           ports:
             - containerPort: 3000
